@@ -35,16 +35,10 @@
             </div>
         </div>
         <aside class="sidebar">
-            <div class="sidebar__widget">
+            <?php dynamic_sidebar('blog') ?>
+            <!--div class="sidebar__widget">
                 <div class="sidebar__title">Recherche</div>
-                <form action="#" class="form-group form-search">
-                    <input type="search" placeholder="Rechercher une actualité">
-                    <button type="submit">
-                        <svg class="icon">
-                            <use xlink:href="sprite.14d9fd56.svg#search"></use>
-                        </svg>
-                    </button>
-                </form>
+
             </div>
 
             <div class="sidebar__widget">
@@ -75,7 +69,7 @@
                     <li><a href="single.html">Maison 4 pièce(s) - 40m²</a></li>
 
                 </ul>
-            </div>
+            </div-->
 
         </aside>
 

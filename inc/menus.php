@@ -19,5 +19,15 @@ add_action('widgets_init', function() {
         'after_title' => '</div>'
     ]);
     register_widget(Agencia_Social_Widget::class);
+
+    register_sidebar([
+        'name' => __('Blog sidebar', 'agencia'),
+        'id' => 'blog',
+        'before_widget' => '<aside class="sidbar__widget">',
+        'after_widget' => '</aside>',
+        'before_title' => '<div class="sidebar__title">',
+        'after_title' => '</div>'
+    ]);
+
 });
 
